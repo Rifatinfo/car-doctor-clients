@@ -24,7 +24,6 @@ const SignUp = () => {
        })
        .then(error =>  console.log(error))
 
-
    }
 
     return (
