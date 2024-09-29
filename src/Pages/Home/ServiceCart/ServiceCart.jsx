@@ -3,7 +3,7 @@ const ServiceCart = ({service}) => {
     const {title, img , price} = service;
     return (
         <div>
-            <div className="card bg-base-100 w-96 shadow-xl">
+            <div className="card bg-base-100 h-96 w-96 shadow-xl">
                 <figure>
                     <img
                         src={img}
